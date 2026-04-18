@@ -1,0 +1,24 @@
+# DiamondSurvival Configuration
+
+# Goal: how many diamonds to win
+goal: 1000
+
+# Overlay web server port (for OBS Browser Source)
+overlay-port: 6971
+
+# Scan settings
+scan:
+  radius: 100
+  duration-seconds: 10
+
+# Warp settings (random teleport spread distance)
+warp:
+  spread: 500
+  min-spread: 100
+
+# Countdown when diamonds reach goal (seconds)
+countdown-seconds: 60
+
+# Tracker (mabel-tracker) for server access control
+tracker:
+  url: "https://mabeltracker.up.railway.app"
